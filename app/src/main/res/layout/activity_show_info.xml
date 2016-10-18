@@ -1,0 +1,79 @@
+<LinearLayout android:id="@+id/third_show"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.example.fanyan.fanyanproject.ShowInfo"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/headpic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:textSize="18sp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/set_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5f9ea0"
+        android:gravity="center"
+        android:text="张三"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="年龄"
+        android:textSize="18sp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/set_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5f9ea0"
+        android:gravity="center"
+        android:text="39"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="熟悉技能"
+        android:textSize="18sp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/set_skill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5f9ea0"
+        android:gravity="center"
+        android:text="安卓开发"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="自我介绍"
+        android:textSize="18sp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/set_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5f9ea0"
+        android:gravity="center"
+        android:text="虚心好学"
+        android:textSize="15sp"/>
+
+</LinearLayout>

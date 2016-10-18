@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/firstbg"
+    tools:context="com.example.fanyan.fanyanproject.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/first_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/search_login_address"/>//定位、搜索、登陆一体化
+        <include layout="@layout/ad_page"/>//广告条轮播
+        <include layout="@layout/refresh_page"/>//招聘信息
+    </LinearLayout>
+
+    <include layout="@layout/bottom_page"/>//底部导航栏
+
+    <!--第二界面-->
+    <include layout="@layout/second"/>
+
+    <!--第三界面-->
+    <include layout="@layout/activity_show_info"/>
+</RelativeLayout>

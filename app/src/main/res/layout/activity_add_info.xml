@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/addinfobg"
+    tools:context="com.example.fanyan.fanyanproject.AddInfo">
+
+
+    <EditText
+        android:id="@+id/use_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="姓名"/>
+
+    <EditText
+        android:id="@+id/use_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="年龄"/>
+
+    <EditText
+        android:id="@+id/use_skill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="熟悉技能"/>
+
+    <EditText
+        android:id="@+id/use_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="自我介绍"/>
+
+    <Button
+        android:id="@+id/success_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加成功"/>
+</LinearLayout>

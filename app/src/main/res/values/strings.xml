@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FanyanProject</string>
+
+    <string name="job_introduce">你还没有简历哦，如果要申请职位需要创建一份简历</string>
+</resources>

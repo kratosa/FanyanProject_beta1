@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="btn_normal">#5f9ea0</drawable>
+    <drawable name="btn_pressed">#458587</drawable>
+</resources>
